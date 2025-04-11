@@ -1,5 +1,5 @@
-# Update to Node.js 18 which supports node: imports
-FROM node:18.12.1-slim
+# Use official Node.js 18 image
+FROM node:18-alpine
 
 # Set working directory
 WORKDIR /usr/src/app
