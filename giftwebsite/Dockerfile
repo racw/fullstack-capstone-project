@@ -1,5 +1,5 @@
-# Use Node.js LTS version
-FROM node:14.17.0-slim
+# Update to Node.js 18 which supports node: imports
+FROM node:18.12.1-slim
 
 # Set working directory
 WORKDIR /usr/src/app
